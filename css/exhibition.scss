@@ -1,0 +1,71 @@
+@use '../css/variables' as *;
+
+body {
+    overflow-x: hidden;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+
+    .main__section {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        height: 240px;
+        width: 100vw;
+    
+        background-color: $second-color;
+
+        h1 {
+            color: $main-font-color;
+            font-size: $h1-size-desktop;
+        }
+    }
+
+    .cosmology__section {
+        background-image: url(../img/cosmology-big-banner.png);
+    }
+
+    .evolution__section {
+        background-image: url(../img/evolution-big-banner.png);
+    }
+
+    .biology__section {
+        background-image: url(../img/biology-big-banner.png);
+    }
+
+    .robotics__section {
+        background-image: url(../img/robots-big-banner.png);
+    }
+
+    .ecology__section {
+        background-image: url(../img/ecology-big-banner.png);
+    }
+}
+
+section {
+    height: 500px;
+    width: 100vw;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+h2 {
+    color: $main-color;
+    font-size: $h2-size-desktop;
+}
+
+.text {
+    color: $main-font-color;
+    font-size: $main-text-size-desktop;
+    max-width: 1547px;
+} 

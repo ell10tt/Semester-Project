@@ -1,0 +1,60 @@
+body {
+  overflow-x: hidden;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+.main .main__section {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  height: 240px;
+  width: 100vw;
+  background-color: #A2564F;
+}
+.main .main__section h1 {
+  color: #F0F3F5;
+  font-size: 48px;
+}
+.main .cosmology__section {
+  background-image: url(../img/cosmology-big-banner.png);
+}
+.main .evolution__section {
+  background-image: url(../img/evolution-big-banner.png);
+}
+.main .biology__section {
+  background-image: url(../img/biology-big-banner.png);
+}
+.main .robotics__section {
+  background-image: url(../img/robots-big-banner.png);
+}
+.main .ecology__section {
+  background-image: url(../img/ecology-big-banner.png);
+}
+
+section {
+  height: 500px;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+h2 {
+  color: #F0F3F5;
+  font-size: 40px;
+}
+
+.text {
+  color: #F0F3F5;
+  font-size: 24px;
+  max-width: 1547px;
+}/*# sourceMappingURL=exhibition.css.map */
