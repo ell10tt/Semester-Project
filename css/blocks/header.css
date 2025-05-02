@@ -1,0 +1,40 @@
+body {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100vw;
+  max-height: 100px;
+}
+.header .logo {
+  max-width: 370px;
+  height: 60px;
+  margin-left: 32px;
+  margin-top: 12px;
+}
+.header .navigation {
+  display: flex;
+  gap: 64px;
+  margin-right: 32px;
+}
+.header .navigation .navigation__item {
+  text-decoration: none;
+  color: #081013;
+  font-size: 20px;
+  font-weight: 500;
+}
+.header .navigation .navigation__item:hover {
+  color: #A2564F;
+}
+.header .navigation .active {
+  color: #A2564F;
+}
+
+#burger, label, aside {
+  display: none;
+}/*# sourceMappingURL=header.css.map */

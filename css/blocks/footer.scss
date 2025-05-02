@@ -1,0 +1,27 @@
+@use '../../css/variables' as *;
+
+.footer {
+    display: flex;
+    flex-direction: column;
+
+    width: 100vw;
+    height: 200px;
+
+    margin-top: 64px;
+
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+
+    .footer__nav {
+        display: flex;
+        flex-direction: row;
+        gap: 32px;
+        a {
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: $main-text-size-desktop;
+            color: $second-font-color;
+        }
+    }
+}

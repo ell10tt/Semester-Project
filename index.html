@@ -3,31 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../../css/zero.css">
+    <link rel="stylesheet" href="../../css/blocks/header.css">
+    <link rel="stylesheet" href="../../css/blocks/footer.css">
+    <link rel="stylesheet" href="../../css/home.css">
     <title>Community Science Museum</title>
 </head>
 <body>
     <header class="header">
-        <img class="logo" src="" alt="">
+        <a href="index.html">
+            <img class="logo" src="../../img/logo.png" alt="Museum logo">
+        </a>
 
         <nav class="navigation">
-            <a class="navigation__item" href="">Home</a>
+            <a class="navigation__item active" href="index.html">Home</a>
 
-            <a class="navigation__item" href="">Exhibitions</a>
+            <a class="navigation__item" href="exhibitions.html">Exhibitions</a>
 
-            <a class="navigation__item" href="">For Kids</a>
+            <a class="navigation__item" href="for-kids.html">For Kids</a>
 
-            <a class="navigation__item" href="">Visit Us</a>
+            <a class="navigation__item" href="visit-us.html">Visit Us</a>
 
-            <a class="navigation__item" href="">Special Events</a>
+            <a class="navigation__item" href="special-events.html">Special Events</a>
 
-            <a class="navigation__item" href="">Get Involved</a>
+            <a class="navigation__item" href="support-us.html">Get Involved</a>
         </nav>
     </header>
 
-    <input type="checkbox" name="" id="">
+    <input 
+    class="menu__open__button" 
+    type="checkbox" name="" 
+    id="burger">
+
+    <label for="burger" class="burger__icon">open</label>
 
     <aside class="side__mob__menu">
-        <label for="">X</label>
+        <label for="burger" class="menu__close__button">X</label>
 
         <nav class="navigation">
             <a class="navigation__item" href="">Home</a>
@@ -59,29 +75,29 @@
             </p>
 
             <div class="nav__cards__holder">
-                <div class="card1">
-                    <a href="">
+                <a href="visit-us.html">
+                    <div class="card card1">
                         <p>Visit Us</p>
-                    </a>
-                </div>
+                    </div>
+                </a>
 
-                <div class="card2">
-                    <a href="">
+                <a href="for-kids.html">
+                    <div class="card card2">
                         <p>For Kids</p>
-                    </a>
-                </div>
+                    </div>
+                </a>
 
-                <div class="card3">
-                    <a href="">
+                <a href="exhibitions.html">
+                    <div class="card card3">
                         <p>Exhibitions</p>
-                    </a>
-                </div>
+                    </div>
+                </a>
 
-                <div class="card4">
-                    <a href="">
+                <a href="special-events.html">
+                    <div class="card card4">
                         <p>Special Events</p>
-                    </a>
-                </div>
+                    </div>
+                </a>
             </div>
         </section>
 
@@ -93,23 +109,23 @@
             </p>
 
             <div class="exhibitions__cards__holder">
-                <div class="card1">
-                    <a href="">
-                        <p>Evolution</p>
-                    </a>
-                </div>
+                <a href="exhibitions.html">
+                    <div class="card card1">
+                            <p>Evolution</p>
+                    </div>
+                </a>
 
-                <div class="card2">
-                    <a href="">
-                        <p>Cosmology</p>
-                    </a>
-                </div>
+                <a href="exhibitions.html">
+                    <div class="card card2">
+                            <p>Cosmology</p>
+                    </div>
+                </a>
 
-                <div class="card3">
-                    <a href="">
-                        <p>Biology and Medicine</p>
-                    </a>
-                </div>
+                <a href="exhibitions.html">
+                    <div class="card card3">
+                            <p>Biology and Medicine</p>
+                    </div>
+                </a>
             </div>
 
             <p class="text">
@@ -120,7 +136,7 @@
             </p>
 
             <div class="button__container">
-                <a href="" class="button">Explore All Exhibitions</a>
+                <a href="exhibitions.html" class="button">Explore All Exhibitions</a>
             </div>
         </section>
 
@@ -144,7 +160,11 @@
             <a href="">Support Us</a>
         </div>
 
-        <img src="" alt="" class="logo">
+        <a href="index.html">
+            <img 
+            src="../../img/logo-v2.png" 
+            alt="Museum logo" class="logo">
+        </a>
     </footer>
 </body>
 </html>

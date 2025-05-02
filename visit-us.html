@@ -3,31 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../../css/zero.css">
+    <link rel="stylesheet" href="../../css/blocks/header.css">
+    <link rel="stylesheet" href="../../css/blocks/footer.css">
     <title>Visit Us</title>
 </head>
 <body>
     <header class="header">
-        <img class="logo" src="" alt="">
+        <a href="index.html">
+            <img class="logo" src="../../img/logo.png" alt="Museum logo">
+        </a>
 
         <nav class="navigation">
-            <a class="navigation__item" href="">Home</a>
+            <a class="navigation__item" href="index.html">Home</a>
 
-            <a class="navigation__item" href="">Exhibitions</a>
+            <a class="navigation__item" href="exhibitions.html">Exhibitions</a>
 
-            <a class="navigation__item" href="">For Kids</a>
+            <a class="navigation__item" href="for-kids.html">For Kids</a>
 
-            <a class="navigation__item" href="">Visit Us</a>
+            <a class="navigation__item active" href="visit-us.html">Visit Us</a>
 
-            <a class="navigation__item" href="">Special Events</a>
+            <a class="navigation__item" href="special-events.html">Special Events</a>
 
-            <a class="navigation__item" href="">Get Involved</a>
+            <a class="navigation__item" href="support-us.html">Get Involved</a>
         </nav>
     </header>
 
-    <input type="checkbox" name="" id="">
+    <input 
+    class="menu__open__button" 
+    type="checkbox" name="" 
+    id="burger">
+
+    <label for="burger" class="burger__icon">open</label>
 
     <aside class="side__mob__menu">
-        <label for="">X</label>
+        <label for="burger" class="menu__close__button">X</label>
 
         <nav class="navigation">
             <a class="navigation__item" href="">Home</a>
@@ -66,7 +81,7 @@
             <p class="text">
                 The entrance is free for all. There are guided 
                 tours of the museum that leave every hour. These tours 
-                are <b>70 NOK per person<b> and include a handy printed guide of the 
+                are <b>70 NOK per person</b> and include a handy printed guide of the 
                 museum. If you would like to organise a guided tour for your group 
                 of 6 or more people, please contact us to arrange the tour.
             </p>
@@ -144,7 +159,11 @@
             <a href="">Support Us</a>
         </div>
 
-        <img src="" alt="" class="logo">
+        <a href="index.html">
+            <img 
+            src="../../img/logo-v2.png" 
+            alt="Museum logo" class="logo">
+        </a>
     </footer>
 </body>
 </html>

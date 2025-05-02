@@ -1,0 +1,55 @@
+@use '../../css/variables' as *;
+
+body {
+    font-family: "Nunito Sans", sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+
+    flex-wrap: wrap;
+
+    width: 100vw;
+    max-height: 100px;
+    
+
+    .logo {
+        max-width: 370px;
+        height: 60px;
+
+        margin-left: 32px;
+        margin-top: 12px;
+    }
+
+    .navigation {
+        display: flex;
+
+        gap: 64px;
+        margin-right: 32px;
+
+        .navigation__item {
+            text-decoration: none;
+            color: $second-font-color;
+            font-size: $header-text-size-desktop;
+            font-weight: 500;
+        }
+
+        .navigation__item:hover {
+            color: $second-color;
+        }
+
+        .active {
+            color: $second-color;
+        }
+    }
+}
+
+// stile it later
+#burger, label, aside {
+  display: none;
+}
+
+

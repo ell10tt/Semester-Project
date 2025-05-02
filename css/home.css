@@ -1,0 +1,136 @@
+body {
+  overflow-x: hidden;
+  background-color: #F0F3F5;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+.main .main__section {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  height: 240px;
+  width: 100vw;
+  background-color: #A2564F;
+}
+.main .main__section h1 {
+  color: #F0F3F5;
+  font-size: 48px;
+}
+.main .main__section p {
+  color: #F0F3F5;
+  font-size: 32px;
+}
+.main .main__section h2 {
+  color: #F0F3F5;
+  font-size: 40px;
+}
+.main .section2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 32px;
+}
+.main .section2 .nav__cards__holder {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  margin-top: 16px;
+  gap: 16px;
+}
+.main .section2 .nav__cards__holder a {
+  text-decoration: none;
+  font-size: 32px;
+  color: #F0F3F5;
+}
+.main .section2 .nav__cards__holder .card {
+  width: 380px;
+  height: 380px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main .section2 .nav__cards__holder .card1 {
+  background-image: url(../img/visit-home-image.png);
+}
+.main .section2 .nav__cards__holder .card2 {
+  background-image: url(../img/kids-home-image.png);
+}
+.main .section2 .nav__cards__holder .card3 {
+  background-image: url(../img/exhibition-home-image.png);
+}
+.main .section2 .nav__cards__holder .card4 {
+  background-image: url(../img/events-home-image.png);
+}
+.main .section3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 32px;
+}
+.main .section3 .exhibitions__cards__holder {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  gap: 16px;
+}
+.main .section3 .exhibitions__cards__holder a {
+  text-decoration: none;
+  font-size: 32px;
+  color: #F0F3F5;
+}
+.main .section3 .exhibitions__cards__holder .card {
+  width: 380px;
+  height: 380px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main .section3 .exhibitions__cards__holder .card1 {
+  background-image: url(../img/evolution-small-image.png);
+}
+.main .section3 .exhibitions__cards__holder .card2 {
+  background-image: url(../img/cosmology-small-image.png);
+}
+.main .section3 .exhibitions__cards__holder .card3 {
+  background-image: url(../img/biology-small-image.png);
+}
+.main .section3 .button__container {
+  display: flex;
+  width: 338px;
+  height: 60px;
+  background-color: #A2564F;
+  margin-top: 16px;
+  margin-bottom: 32px;
+  align-items: center;
+  justify-content: center;
+}
+.main .section3 .button__container .button {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #F0F3F5;
+  font-size: 24px;
+}
+.main .section3 .button__container:hover {
+  background-color: #F0F3F5;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #081013;
+}
+.main .section3 .button__container:hover .button {
+  color: #081013;
+}
+
+.text {
+  color: #081013;
+  font-size: 24px;
+  max-width: 1547px;
+}/*# sourceMappingURL=home.css.map */
