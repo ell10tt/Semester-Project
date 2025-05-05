@@ -1,0 +1,57 @@
+body {
+  overflow-x: hidden;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+.main .main__section {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  height: 240px;
+  width: 100vw;
+  background-color: #A2564F;
+}
+.main .main__section h1 {
+  color: #F0F3F5;
+  font-size: 48px;
+}
+.main .section1 {
+  background-image: url(../img/youngexplorers-big-banner.png);
+}
+.main .section2 {
+  background-image: url(../img/starsclub-big-banner.png);
+}
+.main .section3 {
+  background-image: url(../img/holidayclub-big-banner.png);
+}
+.main .section4 {
+  background-image: url(../img/teachers-big-banner.png);
+}
+
+section {
+  height: 500px;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+h2 {
+  color: #F0F3F5;
+  font-size: 40px;
+}
+
+.text {
+  color: #F0F3F5;
+  font-size: 24px;
+  max-width: 1547px;
+}/*# sourceMappingURL=for-kids.css.map */
