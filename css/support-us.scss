@@ -19,50 +19,37 @@ body {
         justify-content: center;
         height: 240px;
         width: 100vw;
-    
         background-color: $second-color;
+
+        margin-top: 0;
 
         h1 {
             color: $main-font-color;
             font-size: $h1-size-desktop;
         }
-    }
 
-    .section1 {
-        background-image: url(../img/youngexplorers-big-banner.png);
-    }
-
-    .section2 {
-        background-image: url(../img/starsclub-big-banner.png);
-    }
-
-    .section3 {
-        background-image: url(../img/holidayclub-big-banner.png);
-    }
-
-    .section4 {
-        background-image: url(../img/teachers-big-banner.png);
+        h2 {
+            color: $main-color;
+            font-size: $h2-size-desktop;
+        }
     }
 }
 
 section {
-    height: 500px;
-    width: 100vw;
+    margin-top: 32px;
+}
 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
+.text {
+    margin-top: 16px;
 }
 
 h2 {
-    color: $main-color;
+    color: $second-font-color;
     font-size: $h2-size-desktop;
 }
 
 .text {
-    color: $main-font-color;
+    color: $second-font-color;
     font-size: $main-text-size-desktop;
     max-width: 1547px;
 } 

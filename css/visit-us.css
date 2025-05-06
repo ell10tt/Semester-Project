@@ -1,0 +1,68 @@
+body {
+  overflow-x: hidden;
+  background-color: #F0F3F5;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+.main .main__section {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  height: 240px;
+  width: 100vw;
+  background-color: #A2564F;
+  margin-top: 0;
+}
+.main .main__section h1 {
+  color: #F0F3F5;
+  font-size: 48px;
+}
+.main .main__section h2 {
+  color: #F0F3F5;
+  font-size: 40px;
+}
+.main .location__section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main .location__section .text {
+  margin-bottom: 16px;
+}
+.main .hours__section ul {
+  margin-top: 16px;
+}
+.main .hours__section .text {
+  margin-top: 0;
+}
+
+section {
+  margin-top: 32px;
+}
+
+.text {
+  margin-top: 16px;
+}
+
+gmp-map {
+  height: 400px;
+  width: 1240px;
+}
+
+h2 {
+  color: #081013;
+  font-size: 40px;
+}
+
+.text {
+  color: #081013;
+  font-size: 24px;
+  max-width: 1547px;
+}/*# sourceMappingURL=visit-us.css.map */

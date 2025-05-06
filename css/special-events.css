@@ -23,17 +23,18 @@ body {
   color: #F0F3F5;
   font-size: 48px;
 }
+.main .main__section h2 {
+  color: #F0F3F5;
+  font-size: 40px;
+}
 .main .section1 {
-  background-image: url(../img/youngexplorers-big-banner.png);
+  background-image: url(../img/aeronautics-big-banner.png);
 }
 .main .section2 {
-  background-image: url(../img/starsclub-big-banner.png);
+  background-image: url(../img/nightmuseum-big-banner.png);
 }
 .main .section3 {
-  background-image: url(../img/holidayclub-big-banner.png);
-}
-.main .section4 {
-  background-image: url(../img/teachers-big-banner.png);
+  background-image: url(../img/nemo-big-banner.png);
 }
 
 section {
@@ -55,4 +56,4 @@ h2 {
   color: #F0F3F5;
   font-size: 24px;
   max-width: 1547px;
-}/*# sourceMappingURL=for-kids.css.map */
+}/*# sourceMappingURL=special-events.css.map */

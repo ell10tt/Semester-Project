@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="../../css/zero.css">
     <link rel="stylesheet" href="../../css/blocks/header.css">
     <link rel="stylesheet" href="../../css/blocks/footer.css">
+    <link rel="stylesheet" href="../../css/visit-us.css">
     <title>Visit Us</title>
 </head>
 <body>
@@ -59,7 +60,7 @@
         </nav>
     </aside>
 
-    <main>
+    <main class="main">
         <section class="main__section">
             <h1>Visit Us</h1>
 
@@ -72,7 +73,15 @@
             <p class="text">
                 The museum is located at Frederiks gate 2, 0164 Oslo
             </p>
-            <!-- place for google maps API tag -->
+
+            <script 
+            async 
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDa1wnloNddUGX_KJ399u1E9Zbn-7XDAqE&callback=console.debug&libraries=maps,marker&v=beta">
+            </script>
+
+            <gmp-map center="59.916831970214844,10.735490798950195" zoom="14" map-id="DEMO_MAP_ID">
+            <gmp-advanced-marker position="59.916831970214844,10.735490798950195" title="My location"></gmp-advanced-marker>
+            </gmp-map>
         </section>
 
         <section class="admission__section">

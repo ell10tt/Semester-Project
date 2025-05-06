@@ -26,22 +26,23 @@ body {
             color: $main-font-color;
             font-size: $h1-size-desktop;
         }
+
+        h2 {
+            color: $main-color;
+            font-size: $h2-size-desktop;
+        }
     }
 
     .section1 {
-        background-image: url(../img/youngexplorers-big-banner.png);
+        background-image: url(../img/aeronautics-big-banner.png);
     }
 
     .section2 {
-        background-image: url(../img/starsclub-big-banner.png);
+        background-image: url(../img/nightmuseum-big-banner.png);
     }
 
     .section3 {
-        background-image: url(../img/holidayclub-big-banner.png);
-    }
-
-    .section4 {
-        background-image: url(../img/teachers-big-banner.png);
+        background-image: url(../img/nemo-big-banner.png);
     }
 }
 
