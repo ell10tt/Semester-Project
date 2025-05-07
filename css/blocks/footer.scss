@@ -25,3 +25,15 @@
         }
     }
 }
+
+@media (max-width: $breakpoint-big-tablets) { 
+    .footer {
+        .footer__nav {
+            flex-direction: column;
+        }
+
+        .logo {
+            margin-top: 16px;
+        }
+    }
+}

@@ -18,4 +18,13 @@
   text-transform: uppercase;
   font-size: 24px;
   color: #081013;
+}
+
+@media (max-width: 979px) {
+  .footer .footer__nav {
+    flex-direction: column;
+  }
+  .footer .logo {
+    margin-top: 16px;
+  }
 }/*# sourceMappingURL=footer.css.map */
