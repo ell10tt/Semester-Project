@@ -39,6 +39,8 @@ body {
 section {
   height: 500px;
   width: 100vw;
+  background-repeat: no-repeat;
+  background-position: center;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -55,4 +57,76 @@ h2 {
   color: #F0F3F5;
   font-size: 24px;
   max-width: 1547px;
+}
+
+@media (max-width: 1279px) {
+  .main .main__section {
+    height: 200px;
+  }
+  .main .main__section h1 {
+    font-size: 36px;
+  }
+  .text {
+    max-width: 979px;
+  }
+  h2 {
+    font-size: 28px;
+  }
+  section {
+    height: 400px;
+  }
+}
+@media (max-width: 979px) {
+  .main .main__section {
+    height: 180px;
+  }
+  .main .main__section h1 {
+    font-size: 32px;
+  }
+  .text {
+    max-width: 679px;
+    font-size: 20px;
+  }
+  h2 {
+    font-size: 24px;
+  }
+}
+@media (max-width: 769px) {
+  .main .main__section {
+    height: 160px;
+  }
+  .main .main__section h1 {
+    font-size: 24px;
+  }
+  .main .section1 {
+    background-image: url(../img/youngexplorers-small-banner.png);
+  }
+  .main .section2 {
+    background-image: url(../img/starsclub-small-banner.png);
+  }
+  .main .section3 {
+    background-image: url(../img/holidayclub-small-banner.png);
+  }
+  .main .section4 {
+    background-image: url(../img/teachers-small-banner.png);
+  }
+  .main section {
+    background-size: 100%;
+  }
+  .text {
+    max-width: 509px;
+    font-size: 18px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+}
+@media (max-width: 600px) {
+  .text {
+    max-width: 400px;
+    font-size: 18px;
+  }
+  h2 {
+    font-size: 20px;
+  }
 }/*# sourceMappingURL=for-kids.css.map */

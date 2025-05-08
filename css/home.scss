@@ -49,8 +49,10 @@ body {
 
         .nav__cards__holder {
             display: flex;
+            flex-wrap: wrap;
             text-align: center;
             align-items: center;
+            justify-content: center;
 
             margin-top: 16px;
 
@@ -73,18 +75,26 @@ body {
 
             .card1 {
                 background-image: url(../img/visit-home-image.png);
+                background-position: center;
+                background-size: contain;
             }
 
             .card2 {
                 background-image: url(../img/kids-home-image.png);
+                background-position: center;
+                background-size: contain;
             }
 
             .card3 {
                 background-image: url(../img/exhibition-home-image.png);
+                background-position: center;
+                background-size: contain;
             }
 
             .card4 {
                 background-image: url(../img/events-home-image.png);
+                background-position: center;
+                background-size: contain;
             }
         }
     }
@@ -99,8 +109,10 @@ body {
 
         .exhibitions__cards__holder {
             display: flex;
+            flex-wrap: wrap;
             text-align: center;
             align-items: center;
+            justify-content: center;
 
             margin-top: 16px;
             margin-bottom: 16px;
@@ -124,12 +136,18 @@ body {
 
             .card1 {
                 background-image: url(../img/evolution-small-image.png);
+                background-position: center;
+                background-size: contain;
             }
             .card2 {
                 background-image: url(../img/cosmology-small-image.png);
+                background-position: center;
+                background-size: contain;
             }
             .card3 {
                 background-image: url(../img/biology-small-image.png);
+                background-position: center;
+                background-size: contain;
             }
     }
 
@@ -170,3 +188,164 @@ body {
     font-size: $main-text-size-desktop;
     max-width: 1547px;
 } 
+
+@media (max-width: $breakpoint-laptops) {
+    .main {
+        .main__section {
+            height: 200px;
+
+            h1 {
+                font-size: $h1-size-desktop - 12px;
+            }
+
+            p {
+                font-size: $h3-size-desktop - 12px;
+            }
+
+            h2 {
+                font-size: $h2-size-desktop - 12px;
+            }
+        }
+
+        .section2 {
+            .nav__cards__holder {
+                .card {
+                    width: 320px;
+                    height: 320px;
+                }
+            }
+        }
+
+        .section3 {
+            .exhibitions__cards__holder {
+                .card {
+                    width: 320px;
+                    height: 320px;
+                }
+            }
+        }
+    }
+
+    .text {
+        max-width: $breakpoint-laptops - 300px;
+    }
+}
+
+@media (max-width: $breakpoint-big-tablets) {
+    .main {
+        .main__section {
+            height: 180px;
+
+            h1 {
+                font-size: $h1-size-desktop - 16px;
+            }
+
+            p {
+                font-size: $h3-size-desktop - 16px;
+            }
+
+            h2 {
+                font-size: $h2-size-desktop - 16px;
+            }
+        }
+
+
+        .section2 {
+            .nav__cards__holder {
+                .card {
+                    width: 300px;
+                    height: 300px;
+                }
+            }
+        }
+
+        .section3 {
+            .exhibitions__cards__holder {
+                .card {
+                    width: 300px;
+                    height: 300px;
+                }
+            }
+        }
+    }
+
+
+    .text {
+        max-width: $breakpoint-big-tablets - 300px;
+        font-size: $main-text-size-mobile + 2px;
+    }
+}
+
+@media (max-width: $breakpoint-small-tablets) {
+    .main {
+        .main__section {
+            height: 160px;
+
+            h1 {
+                font-size: $h1-size-mobile;
+            }
+
+            p {
+                font-size: $h3-size-mobile;
+            }
+
+            h2 {
+                font-size: $h2-size-mobile;
+            }
+        }
+
+
+        .section2 {
+            .nav__cards__holder {
+                .card {
+                    width: 260px;
+                    height: 260px;
+                }
+            }
+        }
+
+        .section3 {
+            .exhibitions__cards__holder {
+                .card {
+                    width: 260px;
+                    height: 260px;
+                }
+            }
+        }
+    }
+
+
+    .text {
+        max-width: $breakpoint-small-tablets - 260px;
+        font-size: $main-text-size-mobile;
+    }
+}
+
+@media (max-width: $breakpoint-phones) {
+    .main {
+        .section2 {
+            .nav__cards__holder {
+                .card {
+                    width: 200px;
+                    height: 200px;
+                }
+            }
+        }
+
+        .section3 {
+            .exhibitions__cards__holder {
+                .card {
+                    width: 200px;
+                    height: 200px;
+                }
+            }
+        }
+    }
+
+    .text {
+        max-width: $breakpoint-phones - 200px;
+        font-size: $main-text-size-mobile;
+    }
+}
+
+

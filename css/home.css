@@ -39,8 +39,10 @@ body {
 }
 .main .section2 .nav__cards__holder {
   display: flex;
+  flex-wrap: wrap;
   text-align: center;
   align-items: center;
+  justify-content: center;
   margin-top: 16px;
   gap: 16px;
 }
@@ -58,15 +60,23 @@ body {
 }
 .main .section2 .nav__cards__holder .card1 {
   background-image: url(../img/visit-home-image.png);
+  background-position: center;
+  background-size: contain;
 }
 .main .section2 .nav__cards__holder .card2 {
   background-image: url(../img/kids-home-image.png);
+  background-position: center;
+  background-size: contain;
 }
 .main .section2 .nav__cards__holder .card3 {
   background-image: url(../img/exhibition-home-image.png);
+  background-position: center;
+  background-size: contain;
 }
 .main .section2 .nav__cards__holder .card4 {
   background-image: url(../img/events-home-image.png);
+  background-position: center;
+  background-size: contain;
 }
 .main .section3 {
   display: flex;
@@ -76,8 +86,10 @@ body {
 }
 .main .section3 .exhibitions__cards__holder {
   display: flex;
+  flex-wrap: wrap;
   text-align: center;
   align-items: center;
+  justify-content: center;
   margin-top: 16px;
   margin-bottom: 16px;
   gap: 16px;
@@ -96,12 +108,18 @@ body {
 }
 .main .section3 .exhibitions__cards__holder .card1 {
   background-image: url(../img/evolution-small-image.png);
+  background-position: center;
+  background-size: contain;
 }
 .main .section3 .exhibitions__cards__holder .card2 {
   background-image: url(../img/cosmology-small-image.png);
+  background-position: center;
+  background-size: contain;
 }
 .main .section3 .exhibitions__cards__holder .card3 {
   background-image: url(../img/biology-small-image.png);
+  background-position: center;
+  background-size: contain;
 }
 .main .section3 .button__container {
   display: flex;
@@ -133,4 +151,96 @@ body {
   color: #081013;
   font-size: 24px;
   max-width: 1547px;
+}
+
+@media (max-width: 1279px) {
+  .main .main__section {
+    height: 200px;
+  }
+  .main .main__section h1 {
+    font-size: 36px;
+  }
+  .main .main__section p {
+    font-size: 20px;
+  }
+  .main .main__section h2 {
+    font-size: 28px;
+  }
+  .main .section2 .nav__cards__holder .card {
+    width: 320px;
+    height: 320px;
+  }
+  .main .section3 .exhibitions__cards__holder .card {
+    width: 320px;
+    height: 320px;
+  }
+  .text {
+    max-width: 979px;
+  }
+}
+@media (max-width: 979px) {
+  .main .main__section {
+    height: 180px;
+  }
+  .main .main__section h1 {
+    font-size: 32px;
+  }
+  .main .main__section p {
+    font-size: 16px;
+  }
+  .main .main__section h2 {
+    font-size: 24px;
+  }
+  .main .section2 .nav__cards__holder .card {
+    width: 300px;
+    height: 300px;
+  }
+  .main .section3 .exhibitions__cards__holder .card {
+    width: 300px;
+    height: 300px;
+  }
+  .text {
+    max-width: 679px;
+    font-size: 20px;
+  }
+}
+@media (max-width: 769px) {
+  .main .main__section {
+    height: 160px;
+  }
+  .main .main__section h1 {
+    font-size: 24px;
+  }
+  .main .main__section p {
+    font-size: 16px;
+  }
+  .main .main__section h2 {
+    font-size: 20px;
+  }
+  .main .section2 .nav__cards__holder .card {
+    width: 260px;
+    height: 260px;
+  }
+  .main .section3 .exhibitions__cards__holder .card {
+    width: 260px;
+    height: 260px;
+  }
+  .text {
+    max-width: 509px;
+    font-size: 18px;
+  }
+}
+@media (max-width: 600px) {
+  .main .section2 .nav__cards__holder .card {
+    width: 200px;
+    height: 200px;
+  }
+  .main .section3 .exhibitions__cards__holder .card {
+    width: 200px;
+    height: 200px;
+  }
+  .text {
+    max-width: 400px;
+    font-size: 18px;
+  }
 }/*# sourceMappingURL=home.css.map */
