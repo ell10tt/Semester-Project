@@ -59,22 +59,22 @@ body {
   justify-content: center;
 }
 .main .section2 .nav__cards__holder .card1 {
-  background-image: url(../img/visit-home-image.png);
+  background-image: url(../img/visit-home-image.jpg);
   background-position: center;
   background-size: contain;
 }
 .main .section2 .nav__cards__holder .card2 {
-  background-image: url(../img/kids-home-image.png);
+  background-image: url(../img/kids-home-image.jpg);
   background-position: center;
   background-size: contain;
 }
 .main .section2 .nav__cards__holder .card3 {
-  background-image: url(../img/exhibition-home-image.png);
+  background-image: url(../img/exhibition-home-image.jpg);
   background-position: center;
   background-size: contain;
 }
 .main .section2 .nav__cards__holder .card4 {
-  background-image: url(../img/events-home-image.png);
+  background-image: url(../img/events-home-image.jpg);
   background-position: center;
   background-size: contain;
 }
@@ -107,17 +107,17 @@ body {
   justify-content: center;
 }
 .main .section3 .exhibitions__cards__holder .card1 {
-  background-image: url(../img/evolution-small-image.png);
+  background-image: url(../img/evolution-small-image.jpg);
   background-position: center;
   background-size: contain;
 }
 .main .section3 .exhibitions__cards__holder .card2 {
-  background-image: url(../img/cosmology-small-image.png);
+  background-image: url(../img/cosmology-small-image.jpg);
   background-position: center;
   background-size: contain;
 }
 .main .section3 .exhibitions__cards__holder .card3 {
-  background-image: url(../img/biology-small-image.png);
+  background-image: url(../img/biology-small-image.jpg);
   background-position: center;
   background-size: contain;
 }

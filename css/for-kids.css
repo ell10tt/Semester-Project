@@ -24,16 +24,16 @@ body {
   font-size: 48px;
 }
 .main .section1 {
-  background-image: url(../img/youngexplorers-big-banner.png);
+  background-image: url(../img/youngexplorers-big-banner.jpg);
 }
 .main .section2 {
-  background-image: url(../img/starsclub-big-banner.png);
+  background-image: url(../img/starsclub-big-banner.jpg);
 }
 .main .section3 {
-  background-image: url(../img/holidayclub-big-banner.png);
+  background-image: url(../img/holidayclub-big-banner.jpg);
 }
 .main .section4 {
-  background-image: url(../img/teachers-big-banner.png);
+  background-image: url(../img/teachers-big-banner.jpg);
 }
 
 section {
@@ -99,16 +99,16 @@ h2 {
     font-size: 24px;
   }
   .main .section1 {
-    background-image: url(../img/youngexplorers-small-banner.png);
+    background-image: url(../img/youngexplorers-small-banner.jpg);
   }
   .main .section2 {
-    background-image: url(../img/starsclub-small-banner.png);
+    background-image: url(../img/starsclub-small-banner.jpg);
   }
   .main .section3 {
-    background-image: url(../img/holidayclub-small-banner.png);
+    background-image: url(../img/holidayclub-small-banner.jpg);
   }
   .main .section4 {
-    background-image: url(../img/teachers-small-banner.png);
+    background-image: url(../img/teachers-small-banner.jpg);
   }
   .main section {
     background-size: 100%;

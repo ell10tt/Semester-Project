@@ -28,13 +28,13 @@ body {
   font-size: 40px;
 }
 .main .section1 {
-  background-image: url(../img/aeronautics-big-banner.png);
+  background-image: url(../img/aeronautics-big-banner.jpg);
 }
 .main .section2 {
-  background-image: url(../img/nightmuseum-big-banner.png);
+  background-image: url(../img/nightmuseum-big-banner.jpg);
 }
 .main .section3 {
-  background-image: url(../img/nemo-big-banner.png);
+  background-image: url(../img/nemo-big-banner.jpg);
 }
 
 section {
@@ -109,13 +109,13 @@ h2 {
     font-size: 20px;
   }
   .main .section1 {
-    background-image: url(../img/aeronautics-small-banner.png);
+    background-image: url(../img/aeronautics-small-banner.jpg);
   }
   .main .section2 {
-    background-image: url(../img/nightmuseum-small-banner.png);
+    background-image: url(../img/nightmuseum-small-banner.jpg);
   }
   .main .section3 {
-    background-image: url(../img/nemo-small-banner.png);
+    background-image: url(../img/nemo-small-banner.jpg);
   }
   .main section {
     background-size: 100%;
