@@ -1,10 +1,5 @@
 @use '../css/variables' as *;
 
-body {
-    overflow-x: hidden;
-    background-color: $main-color;
-}
-
 .main {
     display: flex;
     flex-direction: column;
