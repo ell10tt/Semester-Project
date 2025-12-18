@@ -30,6 +30,15 @@ body {
         gap: 32px;
         margin-right: 64px;
 
+        ul {
+            display: flex;
+            gap: 32px;
+        }
+
+        li {
+            list-style: none;
+        }
+
         .navigation__item {
             text-decoration: none;
             color: $second-font-color;
@@ -82,6 +91,16 @@ body {
 
     transform: translateX(-100%);
     transition: transform 0.3s ease-in-out;
+
+    ul {
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+    }
+
+    li {
+        list-style: none;
+    }
 
     .navigation {
         display: flex;
